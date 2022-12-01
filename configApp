@@ -1,5 +1,5 @@
 {
-  "Version": "0.0.2",
+  "Version": "0.0.3",
   "ReleaseNotes": "Operadoras disponíveis: Vivo e Tim + Opção Universal!\nUpdate do dia 01/12/2022 - 14:46",
   "UrlUpdate": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/configApp",
   "Sms": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/smsApp",
@@ -27,7 +27,7 @@
   ],
   "Networks": [
     {
-      "Name": "🔵Tim #01",
+      "Name": "🔵 Tim #01",
       "FLAG": "tim",
       "Payload": "GET wss://mobile.c6bank.app/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
       "SNI": "mobile.c6bank.app",
@@ -37,7 +37,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵Tim #02",
+      "Name": "🔵 Tim #02",
       "FLAG": "tim",
       "Payload": "GET wss://api.sandbox.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
       "SNI": "api.sandbox.c6bank.com.br",
@@ -47,7 +47,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵Tim #03",
+      "Name": "🔵 Tim #03",
       "FLAG": "tim",
       "Payload": "GET wss://pre-onboarding-p.c6bank.app/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
       "SNI": "pre-onboarding-p.c6bank.app",
@@ -57,7 +57,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣Vivo #01",
+      "Name": "🟣 Vivo #01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
       "SNI": "",
@@ -67,7 +67,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣Vivo #02",
+      "Name": "🟣 Vivo #02",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
       "SNI": "",
@@ -95,6 +95,46 @@
       "ProxyIP": "162.159.130.62",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },
+    {
+      "Name": "⚪ Universal #03",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "162.159.133.62",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "⚪ Universal #04",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "⚪ Universal #05",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "162.159.130.62",
+      "ProxyIP": "162.159.130.62",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "⚪ Universal #06",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "162.159.133.62",
+      "ProxyIP": "162.159.133.62",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     }
   ]
 }
