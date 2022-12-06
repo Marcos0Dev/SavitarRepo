@@ -1,6 +1,6 @@
-{
-  "Version": "0.0.3",
-  "ReleaseNotes": "Operadoras disponíveis: Vivo e Tim + Opção Universal!\nUpdate do dia 01/12/2022 - 14:46",
+{{
+  "Version": "0.0.4",
+  "ReleaseNotes": "Operadoras disponíveis: Vivo e Tim + Opção Universal!\nUpdate do dia 06/12/2022 - 00:04",
   "UrlUpdate": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/configApp",
   "Sms": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/smsApp",
   "EmailFeedback": null,
@@ -26,6 +26,16 @@
     }
   ],
   "Networks": [
+    {
+      "Name": "🟣 Vivo #01",
+      "FLAG": "vivo",
+      "Payload": "GET wss://songbird.cardinalcommerce.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
+      "SNI": "songbird.cardinalcommerce.com",
+      "TlsIP": "198.217.251.250",
+      "ProxyIP": "198.217.251.250",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
     {
       "Name": "🔵 Tim #01",
       "FLAG": "tim",
@@ -55,26 +65,6 @@
       "ProxyIP": "pre-onboarding-p.c6bank.app",
       "ProxyPort": "443",
       "Info": "Tlsws"
-    },
-    {
-      "Name": "🟣 Vivo #01",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.53.111",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟣 Vivo #02",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.41",
-      "ProxyPort": "80",
-      "Info": "Proxy"
     },
     {
       "Name": "⚪ Universal #01",
