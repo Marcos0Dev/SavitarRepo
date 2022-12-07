@@ -1,6 +1,6 @@
 {
-  "Version": "0.0.5",
-  "ReleaseNotes": "Operadoras disponíveis: Vivo e Tim!\nUpdate do dia 07/12/2022 - 00:20",
+  "Version": "0.0.6",
+  "ReleaseNotes": "Operadoras disponíveis: Vivo!\nUpdate do dia 07/12/2022 - 20:11",
   "UrlUpdate": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/configApp",
   "Sms": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/smsApp",
   "EmailFeedback": null,
@@ -55,36 +55,6 @@
       "ProxyIP": "162.159.135.63",
       "ProxyPort": "80",
       "Info": "Proxy"
-    },
-    {
-      "Name": "🔵 Tim #01",
-      "FLAG": "tim",
-      "Payload": "GET wss://mobile.c6bank.app/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
-      "SNI": "mobile.c6bank.app",
-      "TlsIP": "mobile.c6bank.app",
-      "ProxyIP": "mobile.c6bank.app",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵 Tim #02",
-      "FLAG": "tim",
-      "Payload": "GET wss://api.sandbox.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
-      "SNI": "api.sandbox.c6bank.com.br",
-      "TlsIP": "api.sandbox.c6bank.com.br",
-      "ProxyIP": "api.sandbox.c6bank.com.br",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵 Tim #03",
-      "FLAG": "tim",
-      "Payload": "GET wss://pre-onboarding-p.c6bank.app/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
-      "SNI": "pre-onboarding-p.c6bank.app",
-      "TlsIP": "pre-onboarding-p.c6bank.app",
-      "ProxyIP": "pre-onboarding-p.c6bank.app",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
     }
   ]
 }
