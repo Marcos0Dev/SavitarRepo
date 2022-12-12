@@ -1,5 +1,5 @@
 {
-  "Version": "0.0.6",
+  "Version": "0.0.7",
   "ReleaseNotes": "Operadoras disponíveis: Vivo!\nUpdate do dia 07/12/2022 - 20:11",
   "UrlUpdate": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/configApp",
   "Sms": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/smsApp",
@@ -31,8 +31,8 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "198.217.251.251",
-      "ProxyIP": "198.217.251.251",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "104.16.51.111",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -41,18 +41,8 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "198.217.251.250",
-      "ProxyIP": "198.217.251.250",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟣 Vivo #03",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Origin: https://[random=www.google.com;www.facebook.com;www.github.com;www.cloudflare.com;www.instagram.com][crlf]Sec-WebSocket-Protocol: chat, superchat[crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "162.159.135.63",
-      "ProxyIP": "162.159.135.63",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "104.16.53.111",
       "ProxyPort": "80",
       "Info": "Proxy"
     }
