@@ -1,5 +1,5 @@
 {
-  "Version": "0.0.8",
+  "Version": "0.0.9",
   "ReleaseNotes": "Operadora Tim disponível novamente!😁\nUpdate do dia 29/12/2022 - 10:09",
   "UrlUpdate": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/configApp",
   "Sms": "https://raw.githubusercontent.com/Marcos0Dev/SavitarRepo/main/smsApp",
@@ -46,7 +46,6 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-    ,
     {
       "Name": "🔵 Tim #01",
       "FLAG": "vivo",
